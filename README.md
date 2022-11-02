@@ -45,6 +45,24 @@ The requirements is not compete, as I did this on purpose.  You will need to mak
   1.	Assumptions or changes made to requirements above.  Try not to go overboard here, bulleted list of assumptions\phrases is OK.  No need for a 10 page requirement document 😊
 1.	If you were going to add in a new race and character class, what would it be?   What abilities\exceptions\weaknesses would it have?  Would your existing framework support it or what modifications would you need to make.
 
+1. Participation Rubric
+
+Participation rubric of teammates.  List out for your all team members how much they participated.  This will go into your Lab report.
+```
+	             Member1	Member2	Member3
+Member1 (opinion)	33	     33	     33
+Member2 (opinion)	33	     33	     33
+Member3 (opinion)	33	     33	     33
+```			
+			
+Example 			
+```
+	             Member1	Member2	Member3
+Member1 (opinion)	33	     33	     33
+Member2 (opinion)	20	     40	     40
+Member3 (opinion)	20	     40	     40
+```
+
 #Lab Grading
 1.	70% - Task 1 has been correctly implemented and meets all requirements.
 1.	30% - Lab report contains all required information and is well written.
