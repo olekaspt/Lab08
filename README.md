@@ -12,12 +12,12 @@ All classes that have data members should have at least an accessor to query the
   *	A Class that represents Race – Elves, Dwarves, Humans, Halflings (this will be contained in the concrete classes).
   *	These will have three methods on them   HitPointModification, ArmorClassModification, ,HitBonusModification. Initiative Bonus
   *	An Interface (Abstract Class) class that represents a Character
-    i.	They have Hit points, armor class, to hit bonus, and initiative bonus
-    ii.	They will have accessors to retrieve Hit points, Armor Class, Hit Bonus, that will take into account Racial Modifications
-    iii.	Will have (most likely pure virtual methods) to Attack, take damage, 
+    1.	They have Hit points, armor class, to hit bonus, and initiative bonus
+    1.	They will have accessors to retrieve Hit points, Armor Class, Hit Bonus, that will take into account Racial Modifications
+    1.	Will have (most likely pure virtual methods) to Attack, take damage, 
   *	Character Factory that takes in type of class and race to generate a Wizard, etc.
   *	Concrete classes that inherit from characters to represent Wizards, Rogues, Fighters, Clerics (yes if you have D&D background, these are called classes 😊).  This should inherit from Character.  NOTE: If you want to you can choose other “classes”, but pick four, and have different behaviors.  You will have a reference to the race class (using containment).
-    i.	Make some behavior changes for these character classes.   Ex. Fighters have more HP and have higher AC.   Rogues deal more damage and can hit back row of opposing party, wizards hit all opposing party members but low damage, and clerics can heal.   Feel free to add more exceptions, this is just a starter list.  I want you to have some design reign here 😊
+    *	Make some behavior changes for these character classes.   Ex. Fighters have more HP and have higher AC.   Rogues deal more damage and can hit back row of opposing party, wizards hit all opposing party members but low damage, and clerics can heal.   Feel free to add more exceptions, this is just a starter list.  I want you to have some design reign here 😊
 1.	Create a Class represent to an adventuring Party
 And adventuring party consists of four characters with two in the front row, and two in the back row.   Should be able to make a Party of Characters.  As you develop the attack system below, feel free to add method to the Template make things easier (i.e. damage entire party, pick a party member in rear, or front)
 
@@ -32,21 +32,21 @@ And adventuring party consists of four characters with two in the front row, and
 The requirements is not compete, as I did this on purpose.  You will need to make assumptions or decision points you had to make to implement this.  These will need to be documented in the lab report.   
 
 # Checklist on items I’m looking for when grading
-*. Interface class that is abstract class (technically not required to be pure abstract)
-*. Containment of a object in another one (Wizard will contain a pointer to a Race class, as opposed to making a ElvenWizard class that inherits from Wizard and Elf).
-*. Smart Pointers – all pointers should be smart pointers or use RAII
-*. Virtual and overridden methods (polymorphism)
+* Interface class that is abstract class (technically not required to be pure abstract)
+* Containment of a object in another one (Wizard will contain a pointer to a Race class, as opposed to making a ElvenWizard class that inherits from Wizard and Elf).
+* Smart Pointers – all pointers should be smart pointers or use RAII
+* Virtual and overridden methods (polymorphism)
 
 
 # Lab Submission
 1.	Package all files in a single tar folder and submit the file as a group via Canvas. 
 1.	Lab report contains 
-  a.	class diagrams (use doxygen to generate easily)
-  b.	Assumptions or changes made to requirements above.  Try not to go overboard here, bulleted list of assumptions\phrases is OK.  No need for a 10 page requirement document 😊
+  1.	class diagrams (use doxygen to generate easily)
+  1.	Assumptions or changes made to requirements above.  Try not to go overboard here, bulleted list of assumptions\phrases is OK.  No need for a 10 page requirement document 😊
 1.	If you were going to add in a new race and character class, what would it be?   What abilities\exceptions\weaknesses would it have?  Would your existing framework support it or what modifications would you need to make.
 
 #Lab Grading
 1.	70% - Task 1 has been correctly implemented and meets all requirements.
-3.	30% - Lab report contains all required information and is well written.
+1.	30% - Lab report contains all required information and is well written.
 If program fails to compile, 0% will be given for that Task.
 
