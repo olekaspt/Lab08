@@ -36,6 +36,7 @@ The requirements is not compete, as I did this on purpose.  You will need to mak
 * Containment of a object in another one (Wizard will contain a pointer to a Race class, as opposed to making a ElvenWizard class that inherits from Wizard and Elf).
 * Smart Pointers – all pointers should be smart pointers or use RAII
 * Virtual and overridden methods (polymorphism)
+* Make Unit Tests, at least 2 per concrete class.
 
 
 # Lab Submission
