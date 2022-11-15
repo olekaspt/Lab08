@@ -6,6 +6,8 @@ The objective of this Lab is to create an implementation of a D&D like fighting 
 
 Requirements:
 
+To see example starter code - https://github.com/olekaspt/SampleFleetAttack
+
 All classes that have data members should have at least an accessor to query the data, and potentially a setter if it makes sense.
 
 1.	You will need to create classes for the following concepts.
