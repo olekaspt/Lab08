@@ -1,5 +1,7 @@
 # Lab08
 
+Must follow standards cited here:
+https://github.com/olekaspt/LabStandards/blob/main/README.md
 
 ## Objective
 The objective of this Lab is to create an implementation of a D&D like fighting game.
