@@ -27,8 +27,8 @@ And adventuring party consists of four characters with two in the front row, and
 
 1.	Make a executable that will allow one to have  two opposing parties, and have them fight.  You can just hard code the parties, don’ worry about adding complex UI\text system to setup the parties (unless you really want to, but that is not par to of the assignment).
 
-1.	Some rules we will have from D&D :
-  *	Default AC is 10
+Use or ignore below, but but some rules we will have from D&D, that could be used at inspirations:
+  *	Default armor class (AC) is 10
   *	To attack someone, we pick a random number 1-20 and add to hit bonus.  And then compare against targets AC.
   *	Unless they have a special ability, character attacks opposing parties front line characters until they die/knock out, and then works backwards.   Make it easy, and say front row must be incapacitated before hitting anyone in back row
   *	Have some basic AI so attacking is automated (so we can answer the question can a party of wizards beat up a party of fighters)
