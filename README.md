@@ -42,6 +42,8 @@ The requirements is not compete, as I did this on purpose.  You will need to mak
 * Virtual and overridden methods (polymorphism)
 * Factory to create the "characters"
 * Make Unit Tests, at least 2 per concrete class.
+* All class declarations must be in their own header file.  I.e. THe class Elf will be in Elf.h and Wizard will be in Wizard.h.  Do not have a Races.h and Professions.h or Classes.h
+* Use Fwd Declaration as much as possible in your header files.
 
 
 # Lab Submission
