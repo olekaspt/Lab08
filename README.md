@@ -13,14 +13,14 @@ To see example starter code - https://github.com/olekaspt/SampleFleetAttack
 All classes that have data members should have at least an accessor to query the data, and potentially a setter if it makes sense.
 
 1.	You will need to create classes for the following concepts.
-  *	A Class that represents Race – Elves, Dwarves, Humans, Halflings (this will be contained in the concrete classes).
+  *	A Interface Class that represents Race.  And then four concrete classes to represent Elves, Dwarves, Humans, Halflings.
   *	These will have three methods on them   HitPointModification, ArmorClassModification, ,HitBonusModification. Initiative Bonus
   *	An Interface (Abstract Class) class that represents a Character
     1.	They have Hit points, armor class, to hit bonus, and initiative bonus
     1.	They will have accessors to retrieve Hit points, Armor Class, Hit Bonus, that will take into account Racial Modifications
     1.	Will have (most likely pure virtual methods) to Attack, take damage, 
   *	Character Factory that takes in type of class and race to generate a Wizard, etc.
-  *	Concrete classes that inherit from characters to represent Wizards, Rogues, Fighters, Clerics (yes if you have D&D background, these are called classes 😊).  This should inherit from Character.  NOTE: If you want to you can choose other “classes”, but pick four, and have different behaviors.  You will have a reference to the race class (using containment).
+  *	And then four Concrete classes that inherit from Character to represent Wizards, Rogues, Fighters, Clerics (yes if you have D&D background, these are called classes 😊).  This should inherit from Character.  NOTE: If you want to you can choose other “classes”, but pick four, and have different behaviors.  You will have a reference to the race class (using containment).  ALso if you want, you can have a Interface class for the Professions (like I do for Ships in FleetAttacks).
     *	Make some behavior changes for these character classes.   Ex. Fighters have more HP and have higher AC.   Rogues deal more damage and can hit back row of opposing party, wizards hit all opposing party members but low damage, and clerics can heal.   Feel free to add more exceptions, this is just a starter list.  I want you to have some design reign here 😊
 1.	Create a Class represent to an adventuring Party
 And adventuring party consists of four characters with two in the front row, and two in the back row.   Should be able to make a Party of Characters.  As you develop the attack system below, feel free to add method to the Template make things easier (i.e. damage entire party, pick a party member in rear, or front)
