@@ -14,10 +14,14 @@ All classes that have data members should have at least an accessor to query the
 
 1.	You will need to create classes for the following concepts.
   *	A Interface Class that represents Race.  And then four concrete classes to represent Elves, Dwarves, Humans, Halflings.
-  *	These will have three methods on them   HitPointModification, ArmorClassModification, ,HitBonusModification. Initiative Bonus
+  *	These will have these methods on them (for Fall 2023 only 3 are required):
+    1.   HitPointModification
+    2.   ArmorClassModification
+    3.   HitBonusModification
+    4.    Initiative Bonus
   *	An Interface (Abstract Class) class that represents a Character
     1.	They have Hit points, armor class, to hit bonus, and initiative bonus
-    1.	They will have accessors to retrieve Hit points, Armor Class, Hit Bonus, that will take into account Racial Modifications
+    1.	They will have accessors to retrieve Hit points, Armor Class, Hit Bonus, and Init Bonus.  These will take into account Racial Modifications
     1.	Will have (most likely pure virtual methods) to Attack, take damage, 
   *	Character Factory that takes in type of class and race to generate a Wizard, etc.
   *	And then four Concrete classes that inherit from Character to represent Wizards, Rogues, Fighters, Clerics (yes if you have D&D background, these are called classes 😊).  This should inherit from Character.  NOTE: If you want to you can choose other “classes”, but pick four, and have different behaviors.  You will have a reference to the race class (using containment).  ALso if you want, you can have a Interface class for the Professions (like I do for Ships in FleetAttacks).
